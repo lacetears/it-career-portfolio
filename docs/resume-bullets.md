@@ -1,9 +1,9 @@
 # Résumé wording
-Use these after running, reviewing, and being able to explain the implementation. Code was generated with AI assistance; claim your own testing, changes and understanding accurately.
+Use these after running, reviewing, and being able to explain the implementation. Describe your own testing, changes, and understanding accurately.
 
 ## Delivered project scope
 - **Security Event Detection:** Implemented and tested a Python authentication-log analyzer that correlates repeated failures and subsequent successful logins; documented a synthetic incident investigation and prepared a Wazuh lab configuration.
-- **Sales Data Analysis:** Cleaned and validated 1,213 synthetic sales records using Python, analyzed revenue and product performance with SQL, and created an interactive dashboard with region and product filters.
+- **Sales Data Analysis:** Analyzed 541,909 historical UCI retail rows using Python and SQL, documented cleaning rules, retained 534,129 transaction lines, and published an interactive country/month dashboard with reconciled sales and credits.
 - **IT Help Desk Application:** Developed a Python/Flask ticketing application with SQLite persistence, ticket assignment, priority and status management, search, activity history, input validation, and automated tests.
 
 ## Only after completing native tools yourself
