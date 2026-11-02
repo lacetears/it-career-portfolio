@@ -16,6 +16,6 @@ Three projects covering support software, data analysis, and defensive security.
 The help desk demo stores fictional tickets locally in the visitor's browser. The Python version in its repository uses SQLite. The sales report uses real UCI transactions from 2010–2011, not a real-time feed. The security exercise uses synthetic logs and is not a live Wazuh deployment.
 
 ## Development
-These projects were developed with AI assistance. The code, tests, design decisions, and limits are documented in each repository. No client engagement, production deployment, or business impact is claimed.
+The code, tests, design decisions, and limits are documented in each repository. No client engagement, production deployment, or business impact is claimed.
 
 The original combined project files remain here for continuity. The three linked repositories are the maintained portfolio versions.
