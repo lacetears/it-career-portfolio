@@ -1,3 +1,5 @@
+> Legacy combined-project snapshot. Maintained implementation: https://github.com/lacetears/it-helpdesk. This copy is preserved for continuity and does not include all current fixes.
+
 # IT Help Desk Ticketing Application
 Python, Flask, SQLite, and server-rendered HTML/CSS.
 
