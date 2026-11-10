@@ -1,3 +1,5 @@
+> Legacy combined-project snapshot. Maintained implementation: https://github.com/lacetears/auth-log-analyzer. This copy is preserved for continuity and does not include all current fixes.
+
 # Security Monitoring & Incident Detection Lab
 
 ## Run the working demonstration

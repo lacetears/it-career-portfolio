@@ -1,3 +1,5 @@
+> Legacy combined-project snapshot. Maintained implementation: https://github.com/lacetears/sales-analytics. This copy is preserved for continuity and does not include all current fixes.
+
 # Sales Data Analysis & Dashboard
 A deterministic synthetic retail dataset, a cleaning pipeline, SQLite queries, and a filterable dashboard.
 

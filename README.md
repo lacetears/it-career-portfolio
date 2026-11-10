@@ -1,21 +1,29 @@
-# Caleb Ferretis · IT Portfolio
+# Caleb Ferretis | Technology portfolio
 
-Three projects covering support software, data analysis, and defensive security. Each has its own repository, runnable demo, tests, and notes explaining the implementation.
+B.S. Computer Science student at Western Governors University, expected December 2026. Building toward CCNA. Previous management experience at Equinox and Crunch Fitness provides context for working with people, organizing requests and following through on operational problems; these repositories demonstrate separate technical practice.
 
-## Projects
-
-| Project | What to look at | Code |
+| Project | Evidence to inspect | Scope |
 | --- | --- | --- |
-| **IT Help Desk** | Create a ticket, assign it, and record investigation notes. Python/Flask application with SQLite; browser demo available. | [it-helpdesk](https://github.com/lacetears/it-helpdesk) |
-| **Retail Sales Analysis** | Explore 541,909 real historical transaction rows from UCI, with documented cleaning and reconciled SQL totals. | [sales-analytics](https://github.com/lacetears/sales-analytics) |
-| **Authentication Log Analyzer** | Replay authentication events, adjust detection thresholds, and inspect a written investigation. | [auth-log-analyzer](https://github.com/lacetears/auth-log-analyzer) |
+| [IT Help Desk](https://github.com/lacetears/it-helpdesk) | Flask routes, SQLite persistence/migration, support workflow, validation and regression tests | Local single-operator lab |
+| [Retail Sales Analysis](https://github.com/lacetears/sales-analytics) | Source-to-report reconciliation, SQL, signed monetary calculations, reproducible dashboard | Public historical data plus a separate synthetic exercise |
+| [Authentication Log Analyzer](https://github.com/lacetears/auth-log-analyzer) | JSONL validation, rolling-window correlation, suppression and triage tests | Synthetic batch detection lab |
 
-[Open the live project demos](https://lacetears.github.io/it-career-portfolio/)
+[Browser demonstrations](https://lacetears.github.io/it-career-portfolio/) provide an introduction. Help desk and security pages are separate JavaScript demos, not hosted Python applications. Their features can lag the maintained repositories. The sales page is a generated report; update it from `sales-analytics/retail/output/dashboard.html` after reviewing a new source run.
 
-## What the demos represent
-The help desk demo stores fictional tickets locally in the visitor's browser. The Python version in its repository uses SQLite. The sales report uses real UCI transactions from 2010–2011, not a real-time feed. The security exercise uses synthetic logs and is not a live Wazuh deployment.
+## Start with the engineering evidence
 
-## Development
-The code, tests, design decisions, and limits are documented in each repository. No client engagement, production deployment, or business impact is claimed.
 
-The original combined project files remain here for continuity. The three linked repositories are the maintained portfolio versions.
+Recommended pins: the three standalone projects. Keep this repository as a navigation/demo hub, not a fourth independent technical project.
+
+## Maintenance boundary
+
+
+## Verify the retained snapshot and hub
+
+```sh
+python -m pip install -r requirements.txt
+python -m pytest -q
+node tests/test_dashboard.cjs
+```
+
+No production deployment, client engagement, incident response, certification completion or business impact is claimed.
