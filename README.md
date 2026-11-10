@@ -10,13 +10,9 @@ B.S. Computer Science student at Western Governors University, expected December
 
 [Browser demonstrations](https://lacetears.github.io/it-career-portfolio/) provide an introduction. Help desk and security pages are separate JavaScript demos, not hosted Python applications. Their features can lag the maintained repositories. The sales page is a generated report; update it from `sales-analytics/retail/output/dashboard.html` after reviewing a new source run.
 
-## Start with the engineering evidence
-
-
-Recommended pins: the three standalone projects. Keep this repository as a navigation/demo hub, not a fourth independent technical project.
-
 ## Maintenance boundary
 
+The `helpdesk/`, `data-analytics/` and `cybersecurity/` directories are **legacy combined-project snapshots**. They remain runnable and are retained without deleting features. New engineering work belongs in the standalone repositories. Tests here cover legacy behavior and local hub links; they do not certify feature parity.
 
 ## Verify the retained snapshot and hub
 
