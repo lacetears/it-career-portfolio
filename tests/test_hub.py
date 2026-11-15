@@ -18,6 +18,6 @@ def test_local_hub_links_exist():
 
 def test_current_projects_linked():
     text=(ROOT/'README.md').read_text()
-    for name in ('it-helpdesk','sales-analytics','auth-log-analyzer'):
+    for name in ('enterprise-it-infrastructure-lab','it-helpdesk','sales-analytics','auth-log-analyzer'):
         assert f'https://github.com/lacetears/{name}' in text
     assert 'legacy' in text.lower()

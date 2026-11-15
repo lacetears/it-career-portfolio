@@ -4,6 +4,7 @@ B.S. Computer Science student at Western Governors University, expected December
 
 | Project | Evidence to inspect | Scope |
 | --- | --- | --- |
+| [IT Infrastructure Lab](https://github.com/lacetears/enterprise-it-infrastructure-lab) | VLANs, router-on-a-stick, DHCP/ACL templates, safe PowerShell and offline tests | Source-validated lab; Packet Tracer and Windows deployment pending |
 | [IT Help Desk](https://github.com/lacetears/it-helpdesk) | Flask routes, SQLite persistence/migration, support workflow, validation and regression tests | Local single-operator lab |
 | [Retail Sales Analysis](https://github.com/lacetears/sales-analytics) | Source-to-report reconciliation, SQL, signed monetary calculations, reproducible dashboard | Public historical data plus a separate synthetic exercise |
 | [Authentication Log Analyzer](https://github.com/lacetears/auth-log-analyzer) | JSONL validation, rolling-window correlation, suppression and triage tests | Synthetic batch detection lab |
